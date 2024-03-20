@@ -16,17 +16,18 @@ class QuizBot:
                 self.score += 1
             else:
                 print("Incorrect!")
-            print()  # Add a blank line for better readability
+            print()  
 
         print("Quiz completed!")
         print(f"Your final score is: {self.score}/{len(self.questions)}")
 
 
-# Define your quiz questions and answers here
+# Write your quiz questions and answers here
 quiz_questions = {
+    "founder of python ?": "Guido vann Rosum",
     "What is the capital of France?": "paris",
     "Who wrote 'Romeo and Juliet'?": "shakespeare",
-    "What is the powerhouse of the cell?": "mitochondria"
+    
 }
 
 # Create an instance of the QuizBot and run the quiz
